@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Ignore Virtual Environment
+venv/
+env/
+*.venv
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ignore system files
+Thumbs.db
+desktop.ini
+*.lnk
