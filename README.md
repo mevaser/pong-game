@@ -19,21 +19,12 @@ A simple Pong game built using Python's Turtle module as part of the **100 Days 
    ```sh
    cd pong-game
    ```
-3. Create a virtual environment (optional but recommended):
-   ```sh
-   python -m venv venv
-   ```
-4. Activate the virtual environment:
-   - **Windows:** `venv\Scripts\activate`
-   - **Mac/Linux:** `source venv/bin/activate`
-5. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-6. Run the game:
-   ```sh
-   python main.py
-   ```
+3. Check your Python 3 installation has Tk: run `python -m tkinter`. A small test window should open; close it. On systems where Tk is packaged separately, install the Tk package for that Python installation. No pip dependencies are required.
+4. Run `python main.py` from this directory on a desktop with a display.
+
+**Try a short rally:** release W/S and Up/Down to move the left and right paddles. Meet the ball with a paddle to speed it up; let it pass to give the opponent one point. Each new serve returns to the initial speed. Press Escape or close the window to end the match. A fresh launch starts at 0–0.
+
+To repeat the desktop checks (a Tk display is required), run `python smoke_tk.py`. It uses the real screen and Turtle objects to check keyboard controls, rebounds, both scoring boundaries, a new rally, and both exit paths.
 
 ## 🚀 Features
 
